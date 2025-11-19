@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container,
+.form-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.edit-btn {
+  margin-right: 10px;
+  background-color: orange;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.navbar {
+  background: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
